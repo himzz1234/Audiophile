@@ -92,7 +92,7 @@ const CheckoutModal = ({ setModal }) => {
                     )}
                   </div>
                 </div>
-                <div className="bg-black space-y-1 w-1/2 h-full rounded-r-md flex items-center justify-center flex-col">
+                <div className="bg-[#191919] space-y-1 w-1/2 h-full rounded-r-md flex items-center justify-center flex-col">
                   <h4 className="text-white uppercase">Grand Total</h4>
                   {total >= 2000 ? (
                     <h2 className="text-[17px] uppercase text-white font-bold">
