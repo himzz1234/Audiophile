@@ -36,10 +36,10 @@ const Footer = () => {
       <div className="w-full flex md:flex-row flex-col justify-between items-center md:items-end mt-10 md:mt-0 space-y-10 md:space-y-0">
         <div className="w-full lg:w-1/2 space-y-5">
           <p className="leading-[35px] text-[15px]">
-            Audiophile is an all in one stop to fulfill your audio needs. We`&pos;`re
+            Audiophile is an all in one stop to fulfill your audio needs. We're
             a small team of music lovers and sound specialists who are devoted
             to helping you get the most out of personal audio. Come and visit
-            our demo facility - we`&pos;`re open 7 days a week.
+            our demo facility - we're open 7 days a week.
           </p>
           <p className="text-[15px]">Copyright © 2022. All Rights Reserved</p>
         </div>

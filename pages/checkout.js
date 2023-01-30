@@ -90,7 +90,7 @@ const Checkout = () => {
                   </h2>
                   <h2 className="flex items-center justify-between">
                     <span>VAT (Included)</span>
-                    <span>${((20 / 100) * total).toPrecision(2)}</span>
+                    <span>${((20 / 100) * total).toFixed(2)}</span>
                   </h2>
                   <h2 className="text-[17px] flex items-center justify-between relative before:absolute before:w-full before:h-[1px] before:bg-gray-400 before:bottom-8">
                     <span></span>
