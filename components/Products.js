@@ -6,7 +6,7 @@ import ResponsiveImage from "./ResponsiveImage";
 
 const Products = () => {
   return (
-    <div className="max-w-lg px-5 md:max-w-4xl lg:max-w-6xl mx-auto font-manrope">
+    <div className="max-w-lg px-5 lg:px-0 md:max-w-4xl lg:max-w-6xl mx-auto font-manrope">
       <ProductCategory />
 
       <div className="flex flex-col lg:flex-row items-center bg-primaryGold space-y-10 lg:space-y-0 lg:space-x-20 mt-40 mb-20 rounded-md py-5 lg:py-0 lg:pt-10 px-10 md:px-40">

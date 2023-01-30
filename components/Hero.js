@@ -12,7 +12,7 @@ const Hero = () => {
           desktop="/assets/home/desktop/image-hero-cropped.jpg"
         />
       </div>
-      <div className="space-y-7 pt-32 self-center lg:w-[480px] lg:px-10 md:px-0 z-10 lg:text-left text-center">
+      <div className="space-y-7 pt-32 self-center lg:w-[480px] md:px-0 z-10 lg:text-left text-center">
         <p className="text-[#5e5e5e] text-[16px] md:text-base uppercase font-semibold tracking-[10px]">
           new product
         </p>

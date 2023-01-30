@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 bg-[#191919] py-8 shadow-lg z-20 font-manrope">
-      <div className="lg:max-w-6xl lg:px-10 mx-auto flex items-center justify-between">
+      <div className="lg:max-w-6xl mx-auto flex items-center justify-between">
         <div className="relative lg:hidden">
           <Menu>
             <ul className="space-y-5 text-white mr-40">

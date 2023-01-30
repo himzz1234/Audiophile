@@ -39,7 +39,7 @@ const CheckoutModal = ({ setModal }) => {
             className="rounded-md"
           />
         ) : (
-          <motion.div className="flex flex-col items-center justify-center py-5 px-5 flex-1">
+          <motion.div className="flex flex-col justify-center py-5 px-5 flex-1">
             <motion.div
               initial={{ y: 20, opacity: 1 }}
               animate={{ y: 0, opacity: 1 }}
@@ -61,8 +61,8 @@ const CheckoutModal = ({ setModal }) => {
                   You will receive an email confirmation shortly
                 </p>
               </div>
-              <div className="flex-1 flex w-[500px]">
-                <div className="bg-[#f2f2f2] w-1/2 h-full rounded-l-md pl-2 pr-5">
+              <div className="flex-1 flex w-full">
+                <div className="bg-[#f2f2f2] w-2/3 h-full rounded-l-md pr-2">
                   <div className="flex items-center">
                     <Image
                       src={items[0].image.mobile.substring(
@@ -92,8 +92,8 @@ const CheckoutModal = ({ setModal }) => {
                     )}
                   </div>
                 </div>
-                <div className="bg-[#191919] space-y-1 w-1/2 h-full rounded-r-md flex items-center justify-center flex-col">
-                  <h4 className="text-white uppercase">Grand Total</h4>
+                <div className="bg-[#191919] space-y-1 w-1/3 h-full rounded-r-md flex items-center justify-center flex-col">
+                  <h4 className="text-white uppercase">Subtotal</h4>
                   {total >= 2000 ? (
                     <h2 className="text-[17px] uppercase text-white font-bold">
                       ${total + (20 / 100) * total}

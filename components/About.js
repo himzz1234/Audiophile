@@ -4,9 +4,9 @@ import ResponsiveImage from "./ResponsiveImage";
 
 const About = () => {
   return (
-    <div className="max-w-xl px-5 lg:px-0 md:max-w-4xl lg:max-w-6xl mx-auto pt-24 md:pt-40 font-manrope flex flex-col lg:flex-row lg:items-center">
+    <div className="max-w-xl px-5 lg:px-0 md:max-w-4xl lg:max-w-6xl mx-auto pt-24 md:pt-40 font-manrope flex flex-col lg:flex-row lg:space-x-10">
       <div className="space-y-2 md:space-y-7 order-2 lg:order-1 w-full lg:w-1/2 mt-5 lg:mt-0">
-        <h1 className="text-[28.5px] md:text-[32px] text-center lg:text-left lg:text-5xl leading-[45px] md:leading-[60px] lg:w-[500px] font-semibold">
+        <h1 className="text-[28.5px] md:text-[32px] text-center lg:text-left lg:text-5xl leading-[45px] md:leading-[60px] lg:w-[500px] lg:mt-20 font-semibold">
           BRINGING YOU THE <span className="text-primaryGold">BEST</span> AUDIO
           GEAR
         </h1>
@@ -21,7 +21,7 @@ const About = () => {
       </div>
 
       <div className="w-full lg:w-1/2 flex justify-end order-1 lg:order-2">
-        <div className="h-80 md:h-full">
+        <div className="h-80 w-full md:h-full">
           <ResponsiveImage
             mobile="/assets/shared/mobile/image-best-gear.jpg"
             tablet="/assets/shared/tablet/image-best-gear.jpg"
