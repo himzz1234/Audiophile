@@ -5,7 +5,7 @@ import ResponsiveImage from "./ResponsiveImage";
 const Hero = () => {
   return (
     <div className="max-w-xl px-5 lg:px-0 md:max-w-4xl lg:max-w-6xl relative mx-auto text-white flex items-center justify-center lg:items-start lg:justify-start font-manrope">
-      <div className="absolute w-[450px] h-[800px] md:w-full md:h-[720px] lg:w-full lg:h-[650px] -top-1/2 translate-y-14 md:translate-y-0 md:-top-20 lg:top-0 left-1/2 -translate-x-1/2 -z-1">
+      <div className="absolute w-full h-[800px] md:w-full md:h-[720px] lg:w-full lg:h-[650px] -top-1/2 translate-y-14 md:translate-y-0 md:-top-20 lg:top-0 left-1/2 -translate-x-1/2 -z-1">
         <ResponsiveImage
           mobile="/assets/home/mobile/image-header.jpg"
           tablet="/assets/home/tablet/image-header.jpg"
