@@ -30,7 +30,7 @@ const CheckoutModal = ({ setModal }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0, y: 60 }}
-          className="fixed shadow-xl bg-white sm:w-[400px] sm:h-[420px] md:h-[420px] md:w-[550px] rounded-md flex flex-col"
+          className="fixed shadow-xl bg-white w-[90%] h-[65%] sm:w-[400px] sm:h-[420px] md:h-[420px] md:w-[550px] rounded-md flex flex-col"
         >
           <motion.div className="flex flex-col justify-center py-5 px-5 flex-1">
             <motion.div className="flex-1 flex flex-col items-center space-y-7">
