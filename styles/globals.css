@@ -92,3 +92,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
     left: 45px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .Toastify__toast-container {
+    padding: 10px 30px 0 20px !important;
+  }
+}

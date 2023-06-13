@@ -187,7 +187,7 @@ const ProductDetails = ({ product }) => {
         <Footer />
       </section>
 
-      <ToastContainer autoClose={1500} />
+      <ToastContainer autoClose={1500} className="w-20" />
     </>
   );
 };
