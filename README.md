@@ -27,12 +27,12 @@ Here's a glimpse of the Audiophile app:
 ![audiophile-3](https://github.com/himzz1234/audiophile/assets/99206527/72ed2e4d-5b1f-4983-993c-c558939c23aa)
 
 ## Getting Started
-1. Clone the repository: git clone https://github.com/himzz1234/audiophile.git
-2. Install dependencies: npm install
-3. Start the development server: npm run dev
+1. Clone the repository: ```git clone https://github.com/himzz1234/audiophile.git```
+2. Install dependencies: ```npm install```
+3. Start the development server: ```npm run dev```
 
 ## Usage
-1. Visit http://localhost:3000 in your browser to access the Audiophile app.
+1. Visit `http://localhost:3000` in your browser to access the Audiophile app.
 2. Browse products, view details, and add items to your cart.
 
 
