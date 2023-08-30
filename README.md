@@ -5,7 +5,7 @@
 
 Welcome to the Audiophile project repository! Audiophile is a sleek and user-friendly audio gadgets e-commerce application built using Next.js, Redux for state management, and Tailwind CSS for styling. With Audiophile, you can explore a wide range of premium audio products, view product details, and make purchases seamlessly.
 
-🌐 Visit [Audiophile] https://audiophile-himzz1234.vercel.app/
+🌐 Visit [Audiophile](https://audiophile-himzz1234.vercel.app/)
 
 ## Features
 + Browse Products: Explore a curated selection of high-quality audio gadgets.
